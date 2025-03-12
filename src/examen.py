@@ -1,11 +1,15 @@
 #EXAMEN FINAL DE PYTHON 2 EVA
-def 
+def imprimir_lista_inversa(nombres):
+   lista_inversa =[""]
+   for nombre in range(len(nombres)-1, -1, -1):
+      lista_inversa+= nombre[nombres]
+   print(lista_inversa)   
 
 
 def buscar_palabra(nombres,edades):
     while True:
         objetivo = input("Buscar nombre: ")
-        
+
         for nombre in nombres:
             if objetivo == nombre:
              print((objetivo) +"tiene" (edades[objetivo]+"años"))
