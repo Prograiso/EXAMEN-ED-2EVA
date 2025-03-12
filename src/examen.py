@@ -1,12 +1,17 @@
 #EXAMEN FINAL DE PYTHON 2 EVA
+def 
+
+
 def buscar_palabra(nombres,edades):
-    objetivo = input("Buscar nombre: ")
-    for nombre in nombres:
-        if objetivo == nombre:
-            printstr((objetivo) +"tiene" (edades[objetivo]+"años"))
+    while True:
+        objetivo = input("Buscar nombre: ")
+        
+        for nombre in nombres:
+            if objetivo == nombre:
+             print((objetivo) +"tiene" (edades[objetivo]+"años"))
 
 
-nombres = ["Perantano","Zutano","Fulano","Mengano"]
+nombres = ["Perantano","Zutano","Fulano","Mengano","exit"]
 
 edades = {
     "Perantano" : int(45),
